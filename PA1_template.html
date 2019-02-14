@@ -196,6 +196,7 @@ $(document).ready(function () {
 <div id="loading-the-data" class="section level2">
 <h2>Loading the data</h2>
 <p>First, we need to include 2 very useful libraries.</p>
+<pre class="r"><code>library(dplyr)</code></pre>
 <pre><code>## 
 ## Attaching package: 'dplyr'</code></pre>
 <pre><code>## The following objects are masked from 'package:stats':
@@ -204,6 +205,7 @@ $(document).ready(function () {
 <pre><code>## The following objects are masked from 'package:base':
 ## 
 ##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>library(ggplot2)</code></pre>
 <pre><code>## Warning: package 'ggplot2' was built under R version 3.5.2</code></pre>
 <p>Then, we need to download the zip file, and unzip it, then load the data. If we already have the file unzipped, then just load the data into R directly.</p>
 <pre class="r"><code>fileURL &lt;- &quot;https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip&quot;
